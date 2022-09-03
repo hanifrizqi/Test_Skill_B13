@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>
+      Mapping Array Elements
+   </title>
+</head>
+<body>
+   <h2 style="color:green">
+      Test-Skill-B13
+   </h2>
+</body>
+   <script>
+      var arr = [12,20];
+      var result = [];
+      let i;
+
+      //This function will return the square of the number
+      const square = function(num){
+         return num*num;
+      }
+      for(i=0; i< arr.length; i++){
+         result.push(square(arr[i]));
+      }
+      console.log(result);
+      //Expected output: [12, 20]
+   </script>
+</html>
